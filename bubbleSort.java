@@ -19,6 +19,9 @@ class bubble {
                 }
             }
         }
-
+        System.out.println("Array After Sort:");
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }
