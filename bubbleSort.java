@@ -32,8 +32,9 @@ public class bubbleSort {
         int arr[] = new int[size];
         System.out.println("Enter the Value in the Array");
         for (int i = 0; i < size; i++) {
-           ob.func(arr[i]=sc.nextInt());
+           arr[i]=sc.nextInt();
         }
+        ob.func(arr);
         ob.BUbble(size);
         System.out.println("Array After Sort:");
         for (int i = 0; i < size; i++) {
