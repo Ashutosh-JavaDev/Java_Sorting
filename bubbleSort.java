@@ -6,7 +6,7 @@ class bubble {
     int arr[];
 
     public void func(int arr[]) {
-        int arrs[] = this.arr;
+       this.arr=arr;
     }
 
     public void BUbble(int size) {
