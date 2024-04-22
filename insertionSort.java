@@ -26,6 +26,7 @@ public class insertionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Insertion ob=new Insertion();
+        System.out.println("Enter the value in the Array");
         
     }
 }
