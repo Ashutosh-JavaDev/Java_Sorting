@@ -1,5 +1,7 @@
 package Java_Sorting;
- import java.util.Scanner;
-class bubble{
+
+import java.util.Scanner;
+
+class bubble {
 
 }
