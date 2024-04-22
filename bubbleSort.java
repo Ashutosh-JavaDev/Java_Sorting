@@ -19,23 +19,25 @@ class bubble {
                 }
             }
         }
-        System.out.println("Array After Sort:");
-        for (int i = 0; i < size; i++) {
-            System.out.print(arr[i] + " ");
-        }
+    
     }
 }
 
 public class bubbleSort {
     public static void main(String[] args) {
+        bubble ob=new bubble();
         Scanner sc = new Scanner(System.in);
         System.out.println(("Enter the Size of the Array"));
         int size = sc.nextInt();
         int arr[] = new int[size];
         System.out.println("Enter the Value in the Array");
         for (int i = 0; i < size; i++) {
-
+           ob.func(arr[i]=sc.nextInt());
         }
-
+        ob.BUbble(size);
+        System.out.println("Array After Sort:");
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }
