@@ -1,9 +1,13 @@
 package Java_Sorting;
 import java.util.Scanner;
 class Insertion{
-    
-    public void insertion(int size){
+    int arr[];
+    public void func(int arr[]){
+        this.arr=arr;
+    }
 
+    public void insertion(int size){
+        
     }
 }
 public class insertionSort {
