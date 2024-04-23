@@ -6,7 +6,9 @@ class merge{
         int i=low;
         int j=mid+1;
         int k[]=new int[high-low+1];
-        
+        while(i<=mid && j<=high){
+            
+        }
     }
 }
 public class MergeSort {
