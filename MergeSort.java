@@ -25,6 +25,10 @@ class merge {
             s++;
             i++;
         }
+        while (j <= high) {
+            j++;
+            s++;
+        }
     }
 }
 
