@@ -29,6 +29,9 @@ class merge {
             j++;
             s++;
         }
+        for(int l=0,m=0;m<k.length;l++,m++){
+
+        }
     }
 }
 
