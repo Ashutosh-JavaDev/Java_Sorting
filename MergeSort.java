@@ -36,16 +36,27 @@ class merge {
             arr[m] = k[l];
         }
     }
-    public void recursive(int arr[],int low,int high){
-        if(low>high){
-            int mid=low+(high-low)/2;
+
+    public void recursive(int arr[], int low, int high) {
+        if (low > high) {
+            int mid = low + (high - low) / 2;
             recursive(arr, low, mid);
-            recursive(arr, mid+1, high);
+            recursive(arr, mid + 1, high);
             mergeSort(arr, mid, low, high);
         }
     }
 }
 
 public class MergeSort {
+    public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+
+        merge ob = new merge();
+        System.out.println("Enter the size of the Array");
+        int sze = sc.nextInt();
+        int arr[] = new int[sze];
+        System.out.println("Enter the Wvalue in the Array");
+
+    }
 }
