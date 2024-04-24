@@ -57,6 +57,9 @@ public class MergeSort {
         int sze = sc.nextInt();
         int arr[] = new int[sze];
         System.out.println("Enter the Wvalue in the Array");
-
+        for(int i=0;i<sze;i++){
+            arr[i]=sc.nextInt();
+        }
+        ob.recursive(arr, 0, sze);
     }
 }
