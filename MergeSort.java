@@ -36,6 +36,14 @@ class merge {
             arr[m] = k[l];
         }
     }
+    public void recursive(int arr[],int low,int high){
+        if(low>high){
+            int mid=low+(high-low)/2;
+            recursive(arr, low, mid);
+            recursive(arr, mid+1, high);
+            mergeSort(arr, mid, low, high);
+        }
+    }
 }
 
 public class MergeSort {
