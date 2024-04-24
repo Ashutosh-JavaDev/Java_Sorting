@@ -17,6 +17,9 @@ class merge{
             }
             
         }
+        while(i<=mid){
+            
+        }
     }
 }
 public class MergeSort {
